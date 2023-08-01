@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_PROG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROGDIR>
+    <NAME>ZGV_DISPLAY_BP</NAME>
+    <DBAPL>S</DBAPL>
+    <SUBC>1</SUBC>
+    <FIXPT>X</FIXPT>
+    <LDBNAME>D$S</LDBNAME>
+    <UCCHECK>X</UCCHECK>
+   </PROGDIR>
+   <TPOOL>
+    <item>
+     <ID>H</ID>
+     <KEY>001</KEY>
+     <ENTRY>ID</ENTRY>
+     <LENGTH>2</LENGTH>
+    </item>
+    <item>
+     <ID>H</ID>
+     <KEY>002</KEY>
+     <ENTRY>Name</ENTRY>
+     <LENGTH>4</LENGTH>
+    </item>
+    <item>
+     <ID>H</ID>
+     <KEY>003</KEY>
+     <ENTRY>Last Name</ENTRY>
+     <LENGTH>9</LENGTH>
+    </item>
+    <item>
+     <ID>H</ID>
+     <KEY>004</KEY>
+     <ENTRY>ID Adress</ENTRY>
+     <LENGTH>9</LENGTH>
+    </item>
+    <item>
+     <ID>R</ID>
+     <ENTRY>Program to display Business Partner based on ID</ENTRY>
+     <LENGTH>47</LENGTH>
+    </item>
+    <item>
+     <ID>S</ID>
+     <KEY>LV_ID</KEY>
+     <ENTRY>Business Partner ID</ENTRY>
+     <LENGTH>27</LENGTH>
+    </item>
+    <item>
+     <ID>T</ID>
+     <ENTRY>I</ENTRY>
+     <LENGTH>1</LENGTH>
+    </item>
+   </TPOOL>
+  </asx:values>
+ </asx:abap>
+</abapGit>
